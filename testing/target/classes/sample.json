@@ -1,0 +1,35 @@
+public class Sample
+{
+  public
+  static
+  void
+  main(String[]args)
+{
+  JSONObject
+  employeeDetails=new
+  JSONObject()
+  ;
+  employeeDetails.put(
+  "first name",
+  "Jyoti"
+  )
+  ;
+  employeeDetails.put(
+  "last name",
+  "Senapati"
+  )
+  ;
+  employeeDetails.put(
+  "age",
+  new
+  Integer(23))
+  ;
+  employeeDetails.put(
+  "id",
+  new
+  Integer(2))
+  ;
+  System.out.print(employeeDetails)
+  ;
+}
+}
